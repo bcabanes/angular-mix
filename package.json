@@ -1,0 +1,23 @@
+{
+  "name": "angular-mix",
+  "version": "1.0.0",
+  "description": "Mixing AngularJS & Angular 2 together.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcabanes/angular-mix.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2"
+  ],
+  "author": "Benjamin Cabanes <contact@benjamincabanes.com> (http://benjamincabanes.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcabanes/angular-mix/issues"
+  },
+  "homepage": "https://github.com/bcabanes/angular-mix#readme"
+}
