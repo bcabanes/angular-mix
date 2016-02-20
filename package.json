@@ -19,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/bcabanes/angular-mix/issues"
   },
-  "homepage": "https://github.com/bcabanes/angular-mix#readme"
+  "homepage": "https://github.com/bcabanes/angular-mix#readme",
+  "dependencies": {
+    "angular": "1.5.0",
+    "angular2": "2.0.0-beta.7",
+    "es6-promise": "3.1.2",
+    "es6-shim": "0.33.13",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.22",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+    "typescript": "1.7.5"
+  }
 }
