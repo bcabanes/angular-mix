@@ -1,7 +1,7 @@
 // Pseudo app.
 angular
-  .module('ng1', [])
-  .component('ngApp1', {
+  .module('myApp', [])
+  .component('myComponent', {
     bindings: {
       hero: '@'
     },
@@ -14,5 +14,5 @@ angular
 
 // Bootstrap.
 angular.element(document).ready(function() {
-  angular.bootstrap(document, ['ng1']);
+  angular.bootstrap(document, ['myApp']);
 });
