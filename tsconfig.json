@@ -8,6 +8,13 @@
     "removeComments": false
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/main.d.ts",
+    "typings/main"
+  ],
+  "filesGlob": [
+    "./app/**/*.ts",
+    "!./node_modules/**/*.ts",
+    "typings/browser.d.ts"
   ]
 }
