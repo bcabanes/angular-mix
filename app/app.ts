@@ -1,17 +1,9 @@
-
+import myComponent from './myComponent.js';
 
 // Pseudo app.
-angular
+export default angular
   .module('myApp', [])
-  .component('myComponent', {
-    bindings: {
-      hero: '@'
-    },
-    controller: function() {
-      console.log('This is my "'+ this.hero +'" controller from AngularJS.');
-    },
-    template: '<h1>Hi, {{$ctrl.hero}}!</h1>'
-  });
+  .component('myComponent', myComponent);
 
 
 // Bootstrap.
